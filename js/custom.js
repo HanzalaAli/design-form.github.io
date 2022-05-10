@@ -1,3 +1,5 @@
+AOS.init();
+
 //DOM elements
 const DOMstrings = {
   stepsBtnClass: 'multisteps-form__progress-btn',
@@ -279,6 +281,8 @@ $("#cssmenu").menumaker({
 });
 });
 })(jQuery);
+
+
 
 
 

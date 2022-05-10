@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/fancybox.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
   <title>Hello, world!</title>
 </head>
@@ -56,7 +58,9 @@
                         <!--single form panel-->
                         <div class="multisteps-form__panel shadow pt-5 rounded js-active" data-animation="scaleIn">
                           <div class="row" style="align-items: center;">
-                            <div class="col-md-6">
+                            <div class="col-md-6"data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                               <span class="circle"></span>
                               <span class="circle"></span>
                               <span class="circle"></span>
@@ -66,7 +70,9 @@
                                 <span class="circle"></span>
                               </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-left"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                               <div class="form-txt">
                                 <h4>Gesture Theory is an industry-leading, full-service design and development firm
                                   headquartered in New York, NY. </h4>
@@ -88,7 +94,7 @@
                           <p>Meet our team </p>
                           <div class="row">
                             <div class="col-md-4">
-                              <div class="team-card">
+                              <div class="team-card" data-aos="flip-down">
                                 <div class="team-icon">
                                   <img src="images/icon.PNG" alt="icon">
                                 </div>
@@ -305,10 +311,10 @@
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
   <script src="js/slick.min.js"></script>
   <script src="js/fontawesome.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/custom.js"></script>
 </body>
 
